@@ -1,0 +1,248 @@
+/* 
+.first-color { azul ligero 
+	background: #e7eaf6; #c2c6e6;  
+}
+	
+.second-color { azul claro
+	background: #a2a8d3; 
+}
+
+.third-color { azul mediano
+	background: #38598b; 
+}
+
+.fourth-color { azul fuerte
+	background: 152c57; 
+*/
+
+* {
+    background-color: #c2c6e6;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300 lighter;
+    font-size: 30px;
+}
+
+header {
+    height: 45px;
+    background-color: #38598b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content:center;
+    }
+
+.cajaLogo {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 100%;
+}
+
+.cajaTitulo {
+    background: #38598b;
+    padding-right: 10%;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    background: #38598b;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #c2c6e6;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    margin: 2%;
+    justify-content:center;
+}
+
+.section-left {
+    display: flex;
+    padding-right: 100px;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content:center
+}
+
+.section-right {
+    display: flex;
+    padding-right: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.texto-encriptar {
+    padding: 25px;
+    background: #cdd0eb;
+    margin-bottom: 10px;
+    border: none;
+    color: #152c57;
+    text-align: justify;
+    text-transform: lowercase;
+    font-size: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px #152c57;
+
+    
+}
+
+::placeholder {
+    color: #38598b;
+    font-weight:lighter;
+    text-align: left;
+    font-size: 80%;
+}
+
+.texto-encriptar:focus {
+    outline: none;
+}
+
+.texto-desencriptar {
+    padding: 25px;
+    background: #cdd0eb;
+    background-image: url(/Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    border: none;
+    color: #152c57;
+    text-align: justify;
+    text-transform: lowercase;
+    font-size: 80%;
+    border-radius:20px;
+    box-shadow: 0px 0px 20px 10px #152c57;
+}
+
+.texto-desencriptar:focus {
+    outline: none;
+}
+
+.caja-reglas {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display:flex;
+    font-size: 14px;
+}
+
+#simbolo {
+    margin-right: 5px
+}
+
+.reglas {
+    padding-top: 2px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonEncriptar {
+    width: 40%;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #152c57;
+    color: #c2c6e6;
+    border: 1px solid #152c57;
+    cursor: pointer;
+    height: 40px;
+}
+
+.botonDesencriptar {
+    width: 40%;
+    font-size: 18px;
+    border-radius: 10px;
+    background:#c2c6e6;
+    color:#152c57;
+    border: 1px solid #152c57;
+    cursor: pointer;
+    height: 40px;
+}
+
+.botonCopiar {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #152c57;
+    color: #c2c6e6;
+    border: 1px solid #152c57;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 14px;
+}
+
+.botonEncriptar:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 10px #152c57;
+}
+
+.botonEncriptar:active {
+    text-decoration: underline;
+    font-size: 20px;
+    background:#c2c6e6;
+    color:#152c57;
+}
+
+.botonDesencriptar:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 10px #152c57;
+}
+
+.botonDesencriptar:active {
+    text-decoration: underline;
+    font-size: 20px;
+    background: #152c57;
+    color: #c2c6e6;
+}
+
+.botonCopiar:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 10px #152c57;
+}
+
+.botonCopiar:active {
+    text-decoration: underline;
+    font-size: 20px;
+    background:#c2c6e6;
+    color:#152c57;
+}
+
+.textoCopiar {
+    display: flex;
+    justify-content:center;
+}
+
+footer {
+    height: 45px;
+    background-color: #38598b;
+    padding-top: 39px;
+    padding-bottom: 20px;
+    display: flex;
+    margin:10px 0px;
+    justify-content:center;
+    }
+
+    footer p {
+    background: #38598b;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #c2c6e6;
+    }

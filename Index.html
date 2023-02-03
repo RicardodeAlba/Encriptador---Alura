@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="cajaLogo">
+                <img class="logo" src="Imagenes/Logo.png" alt="logo de alura">
+            </div>
+            <div class="cajaTitulo">
+                <h1>Encriptador de Texto</h1>
+            </div>
+       </header>
+
+        <main>
+            <section class="section-left">
+            
+                <textarea class="texto-encriptar" cols="30" rows="8" placeholder="Ingrese el texto aquí"></textarea>
+                
+                <div class="caja-reglas">
+                    <img id="simbolo" src="Imagenes/signo.png" alt="simbolo de importante">
+                    <p class="reglas">Solo letras minúsculas y sin acentos</p>
+                </div>
+                
+                <div class="botones">
+                    <button class="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <sectionclass="section-right">
+                
+                <textarea class="texto-desencriptar" cols="30" rows="9" ></textarea>
+                
+                <div class="textoCopiar">
+                    <button class="botonCopiar" onclick="copiarPortapapeles()">Copiar</button>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy Copyright Encriptador Alura-RGAS - 2023</p>
+        </footer>
+
+    <script src="/script.js"></script>
+    </body>
+
+
+
+
+</html>
+
